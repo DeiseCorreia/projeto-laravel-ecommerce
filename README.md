@@ -9,14 +9,17 @@
 - Primeiro instale as dependencias:
 
 ```bash
-yarn
+composer install
 ```
 
 ### :computer: Scripts de inicialização:
 
 - Inicie a aplicação em modo desenvolvimento!
 
+```bash
 php artisan serve
+```
+
 
 - Abra [http://localhost:8000](http://localhost:8000) para vizualizar em seu navegador
 
