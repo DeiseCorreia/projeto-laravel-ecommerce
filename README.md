@@ -11,6 +11,11 @@
 ```bash
 composer install
 ```
+- Atualize as dependencias,caso preciso:
+
+```bash
+composer update
+```
 
 ### :computer: Scripts de inicialização:
 
