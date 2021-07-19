@@ -54,7 +54,7 @@
             <a class="nav-link">Produto</a>
             <a class="nav-link">Categoria</a>
        </div>
-       </div>
+       
     </nav> 
 </body>
 </html>
