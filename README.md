@@ -1,5 +1,5 @@
 <h3 align="center">
-   E-commerce - PHP,Laravel
+   Back-end: E-commerce - PHP + Laravel
 </h3>
 
 
