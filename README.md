@@ -1,22 +1,8 @@
 <h3 align="center">
- Dashgo-Web - Nextjs, Chakra-ui
+   E-commerce - PHP,Laravel
 </h3>
 
-<p align="center">
-   <img src="login.png" >
-</p>
 
-<p align="center">
-   <img src="dashboard.png" >
-</p>
-
-<p align="center">
-   <img src="users.png" >
-</p>
-
-<p align="center">
-   <img src="create.png" >
-</p>
 
 ### :computer: How To Run
 
@@ -30,11 +16,9 @@ yarn
 
 - Inicie a aplicação em modo desenvolvimento!
 
-```bash
-yarn dev
-```
+php artisan serve
 
-- Abra [http://localhost:3000](http://localhost:3000) para vizualizar em seu navegador
+- Abra [http://localhost:8000](http://localhost:8000) para vizualizar em seu navegador
 
 ## 🤔 Tem alguma feature e quer contribuir?
 
@@ -47,4 +31,4 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 ---
 
-Make with ♥ by Wesley Guerra :wave:
+Make with Deise Correia :wave:
