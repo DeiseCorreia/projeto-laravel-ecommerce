@@ -3,5 +3,5 @@
     
 @endsection
 @section('conteudo')
-    @yield('index')
+    @yield('layots')
 @endsection
