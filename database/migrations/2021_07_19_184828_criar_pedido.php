@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CriarUsuario extends Migration
+class CriarPedido extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,7 @@ class CriarUsuario extends Migration
      */
     public function up()
     {
-       Schema::create('usuarios', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->string('password'); 
-
-        });
+        //
     }
 
     /**
@@ -29,6 +23,6 @@ class CriarUsuario extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('usuarios');
+        
     }
 }

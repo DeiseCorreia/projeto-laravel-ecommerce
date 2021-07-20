@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Models;
-use App\Models\Categoria;
-use Illuminate\Database\Eloquent\Model;
+use App\Models\RModel;
 
-class Produto extends Model
+
+class Produto extends RModel
 {
    
 

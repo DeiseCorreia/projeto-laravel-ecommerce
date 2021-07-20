@@ -20,8 +20,25 @@ Route::get('/home',function (){
 Route::get('/produto', 'App\Http\Controllers\ProdutoController@create') 
 ->name('listar_produtos');
 Route::get('/categoria', 'App\Http\Controllers\CategoriaController@index') 
-    ->name('listar_produtos');
+    ->name('listar_categorias');
 
 
  
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])
+        ->name('home');
+Route::get('/sair', function () {
+    \Illuminate\Support\Facades\Auth::logout();
+    return redirect('/home');
+});
+Route::get('/admin','App\Http\Controllers\AuthController@dashboard')
+    ->name('home');
+
+    Route::get('/show','App\Http\Controll;AuthController@show')
+    ->name('admin.show');
+    Route::post('/admin/show/do','App\Http\Controllers\AuthController@show')
+    ->name('admin.show.do');
+        

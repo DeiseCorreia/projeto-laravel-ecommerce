@@ -13,8 +13,12 @@ class CriarCategoria extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('categorias', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('nome');
+        });
     }
+    
 
     /**
      * Reverse the migrations.
@@ -23,6 +27,6 @@ class CriarCategoria extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('categorias');
     }
 }

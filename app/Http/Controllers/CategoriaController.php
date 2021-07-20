@@ -2,15 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Categoria;
 use Illuminate\Http\Request;
 
 
 class CategoriaController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        // echo 'olla,categoria';
-        // exit();
         return view('categorias.index');
     }
 }
