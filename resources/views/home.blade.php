@@ -1,4 +1,5 @@
 @extends('layouts')
+    Painel de Administração
 @section('cabecalho')
     
 @endsection
